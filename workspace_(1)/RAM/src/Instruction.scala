@@ -1,0 +1,3 @@
+trait Instruction {
+  def execute()
+}

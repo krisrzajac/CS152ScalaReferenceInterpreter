@@ -1,0 +1,7 @@
+ case class RectangleArea(height:Double, base:Double) extends AreaCommand{
+   def Execute: Double = 
+   {
+     height * base
+     
+   }
+}

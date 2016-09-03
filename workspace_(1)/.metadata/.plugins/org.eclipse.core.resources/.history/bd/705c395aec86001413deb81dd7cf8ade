@@ -1,0 +1,3 @@
+case class Write(src:Int) extends Instruction {
+
+}

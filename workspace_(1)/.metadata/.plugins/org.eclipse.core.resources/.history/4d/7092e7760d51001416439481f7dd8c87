@@ -1,0 +1,13 @@
+object Session {
+  println("Welcome to the Scala worksheet")       //> Welcome to the Scala worksheet
+	val blah = 10                             //> blah  : Int = 10
+	def While(cond: () => Boolean, body: () => Unit) {
+  if (cond()) {
+    body()
+    While(cond, body)
+  }
+  var x = 1
+  While(()=>x <10, () => {println(x); x+=1})
+}                                                 //> While: (cond: () => Boolean, body: () => Unit)Unit
+	
+}

@@ -1,0 +1,5 @@
+
+trait AreaCommand
+{
+  def Execute(): Double
+}

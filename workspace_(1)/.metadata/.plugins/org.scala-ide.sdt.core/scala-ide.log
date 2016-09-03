@@ -1,0 +1,218 @@
+2014-09-02 12:11:20,916 ERROR [Worker-7] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2014-09-02 12:11:20,918 ERROR [Worker-7] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2014-09-02 12:11:20,918 ERROR [Worker-7] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2014-09-15 22:11:51,565 ERROR [Worker-1] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2014-09-15 22:11:51,599 ERROR [Worker-1] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2014-09-15 22:11:51,600 ERROR [Worker-1] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2014-09-16 22:39:38,616 ERROR [Worker-2] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2014-09-16 22:39:38,667 ERROR [Worker-2] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2014-09-16 22:39:38,668 ERROR [Worker-2] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2014-09-23 16:15:55,799 ERROR [Worker-4] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2014-09-23 16:15:55,812 ERROR [Worker-4] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2014-09-23 16:15:55,812 ERROR [Worker-4] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2014-09-23 18:44:39,993 ERROR [Worker-3] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2014-09-23 18:44:40,051 ERROR [Worker-3] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2014-09-23 18:44:40,051 ERROR [Worker-3] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2014-10-05 19:25:23,498 ERROR [Worker-3] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2014-10-05 19:25:23,522 ERROR [Worker-3] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2014-10-05 19:25:23,523 ERROR [Worker-3] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2014-10-12 22:21:34,227 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error during instrumentation of ScriptCompilationUnit(L/FunctionLab2/Session.sc)
+org.scalaide.worksheet.runtime.ProgramInstrumentationFailed: Error during askInstrumented of unit Session.sc
+	at org.scalaide.worksheet.runtime.SourceInstrumenter.instrumentProgram(SourceInstrumenter.scala:37)
+	at org.scalaide.worksheet.runtime.SourceInstrumenter.instrument(SourceInstrumenter.scala:20)
+	at org.scalaide.worksheet.runtime.WorksheetRunner$$anonfun$act$1$$anonfun$apply$1.applyOrElse(WorksheetRunner.scala:58)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:36)
+	at scala.actors.ReactorTask.run(ReactorTask.scala:31)
+	at scala.actors.Reactor$class.resumeReceiver(Reactor.scala:130)
+	at org.scalaide.worksheet.runtime.WorksheetRunner.scala$actors$InternalReplyReactor$$super$resumeReceiver(WorksheetRunner.scala:33)
+	at scala.actors.InternalReplyReactor$class.resumeReceiver(InternalReplyReactor.scala:60)
+	at org.scalaide.worksheet.runtime.WorksheetRunner.resumeReceiver(WorksheetRunner.scala:33)
+	at scala.actors.InternalActor$class.searchMailbox(InternalActor.scala:76)
+	at org.scalaide.worksheet.runtime.WorksheetRunner.searchMailbox(WorksheetRunner.scala:33)
+	at scala.actors.Reactor$$anonfun$startSearch$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(Reactor.scala:118)
+	at scala.actors.Reactor$$anonfun$startSearch$1$$anonfun$apply$mcV$sp$1.apply(Reactor.scala:115)
+	at scala.actors.Reactor$$anonfun$startSearch$1$$anonfun$apply$mcV$sp$1.apply(Reactor.scala:115)
+	at scala.actors.ReactorTask.run(ReactorTask.scala:33)
+	at scala.actors.ReactorTask.compute(ReactorTask.scala:63)
+	at scala.concurrent.forkjoin.RecursiveAction.exec(RecursiveAction.java:160)
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+Caused by: java.lang.ArrayIndexOutOfBoundsException
+	at scala.Array$.copy(Array.scala:105)
+	at scala.tools.nsc.interactive.ScratchPadMaker2$Patcher$$anonfun$result$2.apply(ScratchPadMaker2.scala:148)
+	at scala.tools.nsc.interactive.ScratchPadMaker2$Patcher$$anonfun$result$2.apply(ScratchPadMaker2.scala:145)
+	at scala.collection.TraversableLike$WithFilter$$anonfun$foreach$1.apply(TraversableLike.scala:778)
+	at scala.collection.mutable.ResizableArray$class.foreach(ResizableArray.scala:59)
+	at scala.collection.mutable.ArrayBuffer.foreach(ArrayBuffer.scala:48)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:777)
+	at scala.tools.nsc.interactive.ScratchPadMaker2$Patcher.result(ScratchPadMaker2.scala:145)
+	at scala.tools.nsc.interactive.ProgramInstrumenter$Instrumenter$.scala$tools$nsc$interactive$ProgramInstrumenter$Instrumenter$$instrumentation(ProgramInstrumenter.scala:35)
+	at scala.tools.nsc.interactive.ProgramInstrumenter$Instrumenter$$anonfun$askInstrumentation$1.apply(ProgramInstrumenter.scala:15)
+	at scala.tools.nsc.interactive.ProgramInstrumenter$Instrumenter$$anonfun$askInstrumentation$1.apply(ProgramInstrumenter.scala:15)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:690)
+	at scala.tools.nsc.interactive.Global$$anonfun$respond$1.apply(Global.scala:690)
+	at scala.tools.nsc.interactive.Global.respondGradually(Global.scala:697)
+	at scala.tools.nsc.interactive.Global.respond(Global.scala:690)
+	at scala.tools.nsc.interactive.ProgramInstrumenter$Instrumenter$.askInstrumentation(ProgramInstrumenter.scala:14)
+	at scala.tools.nsc.interactive.ProgramInstrumenter$$anonfun$askInstrumented$1.apply$mcV$sp(ProgramInstrumenter.scala:51)
+	at scala.tools.nsc.interactive.ProgramInstrumenter$$anonfun$askInstrumented$1.apply(ProgramInstrumenter.scala:51)
+	at scala.tools.nsc.interactive.ProgramInstrumenter$$anonfun$askInstrumented$1.apply(ProgramInstrumenter.scala:51)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:446)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:420)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2014-11-01 04:01:22,323 ERROR [Worker-57] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2014-11-01 04:01:22,338 ERROR [Worker-57] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2014-11-01 04:01:22,338 ERROR [Worker-57] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2014-11-01 08:54:50,019 ERROR [Worker-1] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2014-11-01 08:54:50,019 ERROR [Worker-1] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2014-11-01 08:54:50,019 ERROR [Worker-1] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2014-11-05 22:31:41,668 ERROR [Worker-13] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2014-11-05 22:31:41,686 ERROR [Worker-13] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2014-11-05 22:31:41,686 ERROR [Worker-13] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2014-11-06 14:20:51,410 ERROR [Worker-6] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2014-11-06 14:20:51,426 ERROR [Worker-6] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2014-11-06 14:20:51,426 ERROR [Worker-6] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2014-11-06 16:00:45,696 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error during askOption
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source)
+	at scala.tools.refactoring.common.PimpedTrees$TreeMethodsForPositions.nameString(PimpedTrees.scala:336)
+	at scala.tools.refactoring.common.PimpedTrees$TreeMethodsForPositions.namePosition(PimpedTrees.scala:244)
+	at scala.tools.eclipse.semantichighlighting.classifier.SafeSymbol$$anonfun$5.apply(SafeSymbol.scala:109)
+	at scala.tools.eclipse.semantichighlighting.classifier.SafeSymbol$$anonfun$5.apply(SafeSymbol.scala:109)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:446)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:420)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2014-11-06 16:00:47,756 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error during askOption
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source)
+	at scala.tools.refactoring.common.PimpedTrees$TreeMethodsForPositions.nameString(PimpedTrees.scala:336)
+	at scala.tools.refactoring.common.PimpedTrees$TreeMethodsForPositions.namePosition(PimpedTrees.scala:244)
+	at scala.tools.eclipse.semantichighlighting.classifier.SafeSymbol$$anonfun$5.apply(SafeSymbol.scala:109)
+	at scala.tools.eclipse.semantichighlighting.classifier.SafeSymbol$$anonfun$5.apply(SafeSymbol.scala:109)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:446)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:420)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2014-11-06 16:00:50,844 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error during askOption
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source)
+	at scala.tools.refactoring.common.PimpedTrees$TreeMethodsForPositions.nameString(PimpedTrees.scala:336)
+	at scala.tools.refactoring.common.PimpedTrees$TreeMethodsForPositions.namePosition(PimpedTrees.scala:244)
+	at scala.tools.eclipse.semantichighlighting.classifier.SafeSymbol$$anonfun$5.apply(SafeSymbol.scala:109)
+	at scala.tools.eclipse.semantichighlighting.classifier.SafeSymbol$$anonfun$5.apply(SafeSymbol.scala:109)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:446)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:420)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2014-11-06 16:00:59,081 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error during askOption
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source)
+	at scala.tools.refactoring.common.PimpedTrees$TreeMethodsForPositions.nameString(PimpedTrees.scala:336)
+	at scala.tools.refactoring.common.PimpedTrees$TreeMethodsForPositions.namePosition(PimpedTrees.scala:244)
+	at scala.tools.eclipse.semantichighlighting.classifier.SafeSymbol$$anonfun$5.apply(SafeSymbol.scala:109)
+	at scala.tools.eclipse.semantichighlighting.classifier.SafeSymbol$$anonfun$5.apply(SafeSymbol.scala:109)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:446)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:420)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2014-11-06 16:01:09,892 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error during askOption
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source)
+	at scala.tools.refactoring.common.PimpedTrees$TreeMethodsForPositions.nameString(PimpedTrees.scala:336)
+	at scala.tools.refactoring.common.PimpedTrees$TreeMethodsForPositions.namePosition(PimpedTrees.scala:244)
+	at scala.tools.eclipse.semantichighlighting.classifier.SafeSymbol$$anonfun$5.apply(SafeSymbol.scala:109)
+	at scala.tools.eclipse.semantichighlighting.classifier.SafeSymbol$$anonfun$5.apply(SafeSymbol.scala:109)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:446)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:420)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2014-11-06 16:01:25,149 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error during askOption
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source)
+	at scala.tools.refactoring.common.PimpedTrees$TreeMethodsForPositions.nameString(PimpedTrees.scala:336)
+	at scala.tools.refactoring.common.PimpedTrees$TreeMethodsForPositions.namePosition(PimpedTrees.scala:244)
+	at scala.tools.eclipse.semantichighlighting.classifier.SafeSymbol$$anonfun$5.apply(SafeSymbol.scala:109)
+	at scala.tools.eclipse.semantichighlighting.classifier.SafeSymbol$$anonfun$5.apply(SafeSymbol.scala:109)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:446)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:420)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2014-11-06 16:01:26,771 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error during askOption
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source)
+	at scala.tools.refactoring.common.PimpedTrees$TreeMethodsForPositions.nameString(PimpedTrees.scala:336)
+	at scala.tools.refactoring.common.PimpedTrees$TreeMethodsForPositions.namePosition(PimpedTrees.scala:244)
+	at scala.tools.eclipse.semantichighlighting.classifier.SafeSymbol$$anonfun$5.apply(SafeSymbol.scala:109)
+	at scala.tools.eclipse.semantichighlighting.classifier.SafeSymbol$$anonfun$5.apply(SafeSymbol.scala:109)
+	at scala.tools.nsc.util.InterruptReq.execute(InterruptReq.scala:26)
+	at scala.tools.nsc.interactive.Global$$anonfun$pollForWork$1.apply$mcV$sp(Global.scala:446)
+	at scala.util.control.Breaks.breakable(Breaks.scala:38)
+	at scala.tools.nsc.interactive.Global.pollForWork(Global.scala:420)
+	at scala.tools.nsc.interactive.PresentationCompilerThread.run(PresentationCompilerThread.scala:22)
+2014-11-06 20:09:56,032 ERROR [Worker-11] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2014-11-06 20:09:56,048 ERROR [Worker-11] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2014-11-06 20:09:56,048 ERROR [Worker-11] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2014-11-20 20:23:36,091 ERROR [Worker-62] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2014-11-20 20:23:36,169 ERROR [Worker-62] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2014-11-20 20:23:36,169 ERROR [Worker-62] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2014-11-20 20:34:13,801 ERROR [Worker-4] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2014-11-20 20:34:13,801 ERROR [Worker-4] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2014-11-20 20:34:13,801 ERROR [Worker-4] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2014-11-26 18:03:13,455 ERROR [Worker-2] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2014-11-26 18:03:13,502 ERROR [Worker-2] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2014-11-26 18:03:13,502 ERROR [Worker-2] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2014-11-27 01:25:28,947 ERROR [Worker-3] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2014-11-27 01:25:28,947 ERROR [Worker-3] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2014-11-27 01:25:28,947 ERROR [Worker-3] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2014-11-28 22:24:56,314 ERROR [Worker-4] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2014-11-28 22:24:56,342 ERROR [Worker-4] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2014-11-28 22:24:56,342 ERROR [Worker-4] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2014-12-04 00:47:28,932 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - Error during askOption
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at scala.tools.nsc.interactive.Response.get(Response.scala:77)
+	at scala.tools.eclipse.ScalaPresentationCompiler.askOption(ScalaPresentationCompiler.scala:145)
+	at scala.tools.eclipse.ScalaPresentationCompiler.askOption(ScalaPresentationCompiler.scala:136)
+	at scala.tools.eclipse.ScalaHover$$anonfun$getHoverInfo$1.scala$tools$eclipse$ScalaHover$$anonfun$$hoverInfo$1(ScalaHover.scala:24)
+	at scala.tools.eclipse.ScalaHover$$anonfun$getHoverInfo$1$$anonfun$apply$3.apply(ScalaHover.scala:41)
+	at scala.tools.eclipse.ScalaHover$$anonfun$getHoverInfo$1$$anonfun$apply$3.apply(ScalaHover.scala:40)
+	at scala.Option.flatMap(Option.scala:170)
+	at scala.tools.eclipse.ScalaHover$$anonfun$getHoverInfo$1.apply(ScalaHover.scala:40)
+	at scala.tools.eclipse.ScalaHover$$anonfun$getHoverInfo$1.apply(ScalaHover.scala:21)
+	at scala.tools.eclipse.ScalaPresentationCompiler.withSourceFile(ScalaPresentationCompiler.scala:107)
+	at scala.tools.eclipse.ScalaProject$$anonfun$withSourceFile$1.apply(ScalaProject.scala:589)
+	at scala.tools.eclipse.ScalaProject$$anonfun$withSourceFile$1.apply(ScalaProject.scala:588)
+	at scala.tools.eclipse.ScalaProject$$anonfun$withPresentationCompiler$1.apply(ScalaProject.scala:582)
+	at scala.tools.eclipse.ScalaProject$$anonfun$withPresentationCompiler$1.apply(ScalaProject.scala:581)
+	at scala.tools.eclipse.util.Cached$class.apply(Cached.scala:41)
+	at scala.tools.eclipse.ScalaProject$$anon$1.apply(ScalaProject.scala:95)
+	at scala.tools.eclipse.ScalaProject.withPresentationCompiler(ScalaProject.scala:581)
+	at scala.tools.eclipse.ScalaProject.withSourceFile(ScalaProject.scala:590)
+	at scala.tools.eclipse.InteractiveCompilationUnit$class.withSourceFile(InteractiveCompilationUnit.scala:66)
+	at scala.tools.eclipse.javaelements.ScalaSourceFile.withSourceFile(ScalaSourceFile.scala:69)
+	at scala.tools.eclipse.ScalaHover.getHoverInfo(ScalaHover.scala:43)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+2014-12-04 01:35:35,834 ERROR [Worker-31] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2014-12-04 01:35:35,838 ERROR [Worker-31] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2014-12-04 01:35:35,838 ERROR [Worker-31] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2014-12-04 20:31:37,441 ERROR [Worker-5] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2014-12-04 20:31:37,457 ERROR [Worker-5] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2014-12-04 20:31:37,457 ERROR [Worker-5] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2014-12-18 01:46:43,605 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2014-12-18 02:02:47,739 ERROR [Worker-12] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2014-12-18 02:02:47,739 ERROR [Worker-12] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2014-12-18 02:02:47,739 ERROR [Worker-12] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2014-12-18 09:54:20,061 ERROR [Worker-4] - System.err - SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2014-12-18 09:54:20,061 ERROR [Worker-4] - System.err - SLF4J: Defaulting to no-operation (NOP) logger implementation
+2014-12-18 09:54:20,061 ERROR [Worker-4] - System.err - SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.

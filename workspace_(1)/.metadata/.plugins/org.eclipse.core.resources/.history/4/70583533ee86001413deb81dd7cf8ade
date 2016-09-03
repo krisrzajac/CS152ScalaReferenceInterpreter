@@ -1,0 +1,8 @@
+
+
+case class Add(dest:Int, src1:Int, src2:Int) extends Instruction {
+def execute()
+{
+  Load(dest, (processor.reg(src1)+processor.reg(src2)))
+}
+}

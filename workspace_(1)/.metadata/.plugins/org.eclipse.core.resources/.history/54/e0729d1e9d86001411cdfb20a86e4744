@@ -1,0 +1,8 @@
+case class TriangleArea(height:Double, width:Double)extends AreaCommand
+{
+  def Execute = 
+  {
+    (height*width)/2
+  }
+
+}

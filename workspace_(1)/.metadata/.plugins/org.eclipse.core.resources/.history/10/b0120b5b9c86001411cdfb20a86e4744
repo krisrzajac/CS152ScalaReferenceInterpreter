@@ -1,0 +1,10 @@
+import scala.util.parsing.combinator._
+class AreaParsers extends RegexParsers {
+
+  def command: Parser[AreaCommand] = circle | rectangle | triangle | failure("invalid expression")
+  def circle: Parser[AreaCommand] =
+    "circle" ~ number
+      {
+        case "circle" ~ num => CircleArea(num)
+      }
+}

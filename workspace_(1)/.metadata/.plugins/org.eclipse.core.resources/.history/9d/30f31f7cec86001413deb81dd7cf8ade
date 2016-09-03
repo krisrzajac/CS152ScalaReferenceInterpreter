@@ -1,0 +1,42 @@
+import scala.util.parsing.combinator._
+
+class RAMParsers extends RegexParsers {
+  
+ def instruction: Parser[Instruction] = add | block | branch | load | write
+  
+ 
+ def write: Parser[Write] = "write"~>integer ^^
+  { case i => Write(i) }
+  
+  
+  def index: Parser[Int] = """[0-7]""".r ^^ 
+  { case i => i.toInt }
+  
+   def integer: Parser[Int] = """(\+|-)?[0-9]+""".r ^^
+    {
+    case i => i.toInt 
+    }
+  
+  def add : Parser[Instruction] = "add"~index~","~index~","~index ^^
+  {
+    case "add"~index1~","~index2~","~index3 => Add(index1,index2,index3)
+  }
+  
+  
+  def branch : Parser[Instruction] = "branch" ~ index~ "," ~ integer ^^
+  {
+    case "branch" ~ index~ "," ~ integer => Branch(index,integer)
+  }
+  
+  def load : Parser[Instruction] = "load" ~ index~ "," ~ integer ^^
+  {
+    case "load" ~ index~ "," ~ integer => Load(index, integer)
+  }
+  def block : Parser[Instruction] = "{" ~ instruction ~ rep(";"~>instruction)<~"}" ^^
+  {
+    case instruction ~ Nil => Block(instruction)
+    case t ~ rest =>Block(t::rest)
+  }
+  
+
+}
